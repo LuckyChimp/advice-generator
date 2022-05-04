@@ -34,6 +34,7 @@ Users are able to:
 - Semantic HTML5 markup
 - SCSS for clean, easy and less CSS
 - Flexbox
+- JavaScript: fetch, asynchronous functions
 
 ## Author
 
