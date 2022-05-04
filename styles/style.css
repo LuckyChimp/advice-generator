@@ -1,0 +1,102 @@
+/* Colors */
+/* -- primary */
+/* -- neutral */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+}
+
+p, a, div {
+  color: #cee3e9;
+}
+
+body {
+  height: calc(100vh - 1rem);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #202632;
+}
+body main {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+  border-radius: 16px;
+  background-color: #323a49;
+}
+@media screen and (min-width: 1400px) {
+  body main {
+    max-width: 33%;
+  }
+}
+@media screen and (min-width: 850px) {
+  body main {
+    max-width: 60%;
+  }
+}
+@media screen and (max-width: 850px) {
+  body main {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 350px) {
+  body main {
+    max-width: 90%;
+    padding: 6px;
+  }
+}
+body main .advice-title {
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #52ffa8;
+}
+body main #advice-text {
+  margin-bottom: 2rem;
+  font-size: 28px;
+  text-align: center;
+}
+body main .divider {
+  margin-bottom: 1em;
+}
+@media screen and (max-width: 500px) {
+  body main .divider {
+    display: none;
+  }
+}
+body main #show-new-advice {
+  position: absolute;
+  bottom: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #52ffa8;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+body main #show-new-advice:hover {
+  box-shadow: 0px 0px 25px 8px rgba(82, 255, 168, 0.5);
+}
+body main #show-new-advice:active {
+  transform: scale(110%);
+}
+body .attribution {
+  position: absolute;
+  bottom: 1em;
+  font-size: 11px;
+  text-align: center;
+  color: #cee3e9;
+}
+body .attribution a {
+  color: #3e52a3;
+}/*# sourceMappingURL=style.css.map */
