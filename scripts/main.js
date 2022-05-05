@@ -24,6 +24,6 @@ window.onload = async () => {
         let adviceTextElmnt = document.getElementById('advice-text');
 
         adviceIdElmnt.textContent = adviceID;
-        adviceTextElmnt.textContent = '"'+adviceText+'"';
+        adviceTextElmnt.textContent = `"${adviceText}"`;
     }
 }
